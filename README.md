@@ -19,8 +19,21 @@ $ vagrant up
 $ vagrant ssh
 ```
 
+# Deployment
+
+Para acceder a nuestra instancia desde nuestro navegador podemos hacerlo a través de la ip: `192.168.33.19` o podemos configurar nuestro archivo `hosts` para asignarle un dominio local, agregando la siguiente linea: 
+
+```
+192.168.33.19 app.pokemon.dev
+```
+
+Y de esa manera podremos acceder a nuestro navegador con esa nueva ruta creada [app.pokemon.dev](app.pokemon.dev)
+
 ----
 # NOTA
 
 Si deseas cambiar la carpeta compartida con el nombre de tu proyecto antes de iniciar la instncia tienes que modificar el documento `provision/default.yml` en la sección de  `synced_folder` agregando el **PATH** de la carpeta que desees compartir, si se encuentra en un directorio diferente
+
+
+
 
