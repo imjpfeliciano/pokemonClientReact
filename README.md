@@ -27,7 +27,7 @@ Para acceder a nuestra instancia desde nuestro navegador podemos hacerlo a trav√
 192.168.33.19 app.pokemon.dev
 ```
 
-Y de esa manera podremos acceder a nuestro navegador con esa nueva ruta creada [app.pokemon.dev](app.pokemon.dev)
+Y de esa manera podremos acceder a nuestro navegador con esa nueva ruta creada [app.pokemon.dev](http://app.pokemon.dev)
 
 ----
 # NOTA
