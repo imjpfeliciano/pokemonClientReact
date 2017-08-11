@@ -1,0 +1,20 @@
+#GENERAL OPTIONS
+vm_box: ubuntu/trusty64
+
+#VM Settings
+memory: 1024
+cpus: 1
+
+#NETWORK SETTINGS
+hostname: app.pokemon.dev
+ip: 192.168.33.19
+
+#LINKED CLONE FOR VAGRANT v1.8
+linked_clone: false
+
+#ADVANCED SETTINGS
+synced_folder: appPokemon
+document_root: /home/vagrant/appPokemon
+
+#INSTALL TOOLS
+tools: ./provision/tools.sh
